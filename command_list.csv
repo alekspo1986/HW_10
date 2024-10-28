@@ -1,0 +1,68 @@
+    1  git init
+    2  tree -a
+    3  tree -o
+    4  tree -d
+    5  git config user.name "Oleksandr Pogo"
+    6  git config user.email alekspo1986@gmail.com
+    7  cat .git/config
+    8  git config --global user.name "Oleksandr Pogo"
+    9  git config --global user.email alekspo1986@gmail.com
+   10  git config --list
+   11  git config --list --global
+   12  cat ~/.gitconfig
+   13  git config --unset user.name
+   14  git config --unset user.email
+   15  git config --remove-section user
+   16  git config --list
+   17  git config --global alias.c config
+   18  git c --list
+   19  git clear
+   20  clear
+   21  -c && rm ~/.bash_history~
+   22  git help
+   23  clear
+   24  ls
+   25  git status
+   26  git config --global user.name
+   27  git config --global user.email
+   28  git clone https://github.com/alekspo1986/HW_10.git
+   29  ls -l
+   30  cd HW_10/
+   31  ls -l
+   32  git status
+   33  touch text_ignore.txt
+   34  git add text_ignore.txt
+   35  git status
+   36  git commit -m "added text_ignore.txt"
+   37  git status
+   38  git log
+   39  git bracnh
+   40  git branch
+   41  vim text_ignore.txt
+   42  git status
+   43  git add text_ignore.txt
+   44  git commit -m "saved text_ignore.txt"
+   45  git status
+   46  git touch main_test.txt
+   47  touch main_test.txt
+   48  git add main_test.txt
+   49  git commit -m "saved main_test.txt"
+   50  git chtckout -b develop
+   51  git checkout -b develop
+   52  touch develop_test.txt
+   53  add develop_test.txt
+   54  git add develop_test.txt
+   55  git commit develop_test.txt "saved develop_test.txt"
+   56  git commit -m "saved develop_test.txt"
+   57  vim develop_test.txt
+   58  git status
+   59  git add develop_test.txt
+   60  git commit -m "saved develop_test.txt away"
+   61  checkout main
+   62  git checkout main
+   63  git merge develop
+   64  git log
+   65  git command_list.csv
+   66  command_list.csv
+   67  git --help
+   68  history > command_list.csv
